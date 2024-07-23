@@ -1,0 +1,16 @@
+linters:
+  enable:
+    - copyloopvar 
+    - gofmt
+    - goimports
+    - gosec
+    - ineffassign
+    - misspell
+    - nolintlint
+    - revive
+    - staticcheck
+    - tenv 
+    - unconvert
+    - unused
+    - govet
+    - dupword 

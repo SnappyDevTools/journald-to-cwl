@@ -1,0 +1,11 @@
+[Unit]
+Description=journald-to-cwl
+
+[Service]
+Type=simple
+RestartSec=10
+ExecStart=/usr/bin/journald-to-cwl /etc/journald-to-cwl/journald-to-cwl.conf
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
